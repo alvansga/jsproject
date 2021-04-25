@@ -3,60 +3,45 @@
 <html>
 <head>
     <title> My First WEB PAGE </title>
+    <style type="text/css">
+        table{
+            border: 1px solid black;
+        }
+        /* thead{                       tidak pengaruh
+            border: 1px solid black;
+        }
+        tr{
+            border: 1px solid black;
+        } */
+        td{
+            border: 1px solid black;
+            align-content: center;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>
-        Registration Form
-    </h1>
 
-    <div id="reg-form">
-        <form>
-            <label for="first-name"> First Name : </label>
-            <input type="text" name="first-name" placeholder="cth: Peter" required>
-            <label for="last-name"> Last Name : </label>
-            <input type="text" name="last-name" placeholder="cth: Parker" required>
+            <table>
+                <thead>
+                    <th> Dog Owner</th>
+                    <th> Name </th>
+                    <th> Breed </th>
+                </thead>
 
-            <div>
-                <label for="gender-male"> Male </label>
-                <input type="radio" name="gender-choice1" value="choice-1">
-                <label for="gender-female "> Female </label>
-                <input type="radio" name="gender-choice2" value="choice-2">
-            </div>
-
-            <div>
-                <label for="email"> Email </label>
-                <input type="email" name="email" placeholder="peter.parker@gmail.com">
-                <label for="password"> Password </label>
-                <input type="password" name="password">
-            </div>
-
-            <div>
-                <label for="birthday"> Birthday</label>
-                <select name="birthday">
-                    <option value="0" selected disabled> Month</option>
-                    <option value="jan"> January</option>
-                    <option value="feb"> February</option>
-                    <option value="mar"> March</option>
-                    <option value="apr"> April</option>
-                    <option value="may"> May</option>
-                    <option value="jun"> June</option>
-                    <option value="jul"> July</option>
-                    <option value="agt"> August</option>
-                    <option value="sep"> September</option>
-                    <option value="oct"> October</option>
-                    <option value="nov"> November</option>
-                    <option value="dec"> December</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="agree"> Saya setuju dgn syarat dan ketentuan: </label>
-                <input type="checkbox" name="agree">
-
-                <button type="submit"> SUBMIT </button>
-            </div>
-        </form>
-    </div>
+                <tr>
+                    <td> Sam</td>
+                    <td> Jack</td>
+                    <td> Husky</td>
+                </tr>
+                
+                <tr>
+                    <td> Bucky</td>
+                    <td> Wolf</td>
+                    <td> Chiba</td>
+                </tr>
+            
+            
+            </table>
 </body>
 </html>
