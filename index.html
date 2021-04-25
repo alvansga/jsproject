@@ -6,66 +6,57 @@
 </head>
 <body>
 
-    <div>
-        <header>
-            This is Header 
-            <hr>
-        </header>
+    <h1>
+        Registration Form
+    </h1>
+
+    <div id="reg-form">
+        <form>
+            <label for="first-name"> First Name : </label>
+            <input type="text" name="first-name" placeholder="cth: Peter" required>
+            <label for="last-name"> Last Name : </label>
+            <input type="text" name="last-name" placeholder="cth: Parker" required>
+
+            <div>
+                <label for="gender-male"> Male </label>
+                <input type="radio" name="gender-choice1" value="choice-1">
+                <label for="gender-female "> Female </label>
+                <input type="radio" name="gender-choice2" value="choice-2">
+            </div>
+
+            <div>
+                <label for="email"> Email </label>
+                <input type="email" name="email" placeholder="peter.parker@gmail.com">
+                <label for="password"> Password </label>
+                <input type="password" name="password">
+            </div>
+
+            <div>
+                <label for="birthday"> Birthday</label>
+                <select name="birthday">
+                    <option value="0" selected disabled> Month</option>
+                    <option value="jan"> January</option>
+                    <option value="feb"> February</option>
+                    <option value="mar"> March</option>
+                    <option value="apr"> April</option>
+                    <option value="may"> May</option>
+                    <option value="jun"> June</option>
+                    <option value="jul"> July</option>
+                    <option value="agt"> August</option>
+                    <option value="sep"> September</option>
+                    <option value="oct"> October</option>
+                    <option value="nov"> November</option>
+                    <option value="dec"> December</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="agree"> Saya setuju dgn syarat dan ketentuan: </label>
+                <input type="checkbox" name="agree">
+
+                <button type="submit"> SUBMIT </button>
+            </div>
+        </form>
     </div>
-
-    <h1> This is just dome text! </h1>
-    <h2> This is just dome text! </h2>
-    <h3> This is just dome text! </h3>
-    <h4> This is just dome text! </h4>
-    <h5> This is just dome text! </h5>
-    <h6> This is just dome text! </h6>
-
-    <p> Lorem ipsum,</br> dolor sit amet consectetur adipisicing elit. 
-        Delectus quod cum doloribus recusandae, facilis distinctio quam. 
-        Dolorem, quidem ipsum <b>omnis</b> laboriosam fugiat ullam cumque, 
-        deleniti ea dolore saepe inventore iure.</p>
-
-    <a href="http://www.google.com">
-        <img src="resource/ironman.jpg" height="200" width="320px" alt="Gambar ironman">
-    </a>
-        
-    <hr width="80%">       <!-- garis: <hr> -->      
-
-    <big> ini teks besar </big> 
-    <small> ini teks kecil </small>
-
-    <br> 
-
-    <a href="http://www.google.com"> Open Google</a>
-
-    <h2> RANDOM List:</h2>
-    <ol>
-        <li> random item</li>
-        <li> random item</li>
-        <li> random item</li>
-        <li> random item</li>
-        <li> random item</li>
-        <li> random item</li>
-    </ol>
-
-    <h2> MARVEL Heroes List:</h2>
-    <ul>
-        <li> 
-            <img src="https://cdn.iconscout.com/icon/free/png-512/ironman-marvel-super-hero-earth-saver-avenger-28699.png" width="20px" height="20px" alt="(gambar logo ironman)">
-            Iron man
-        </li>
-        <li> random item</li>
-        <li> random item</li>
-        <li> random item</li>
-        <li> random item</li>
-        <li> random item</li>
-    </ul>
-    <div>
-        <footer>
-            <hr>
-            END of PAGE
-        </footer>
-    </div>
-
 </body>
 </html>
